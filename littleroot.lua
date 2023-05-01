@@ -1,6 +1,6 @@
 littleroot = {
 	{"w",60},
-	{"walkRight",4},
+	{"walkRight",5},
 	{"walkUp",4},
 	{"w",360}, -- out of room
 	{"walkDown",3},

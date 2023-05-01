@@ -1,16 +1,18 @@
-package.path = 'home/brian/Documents/silverScripts/?.lua'
+package.path = 'home/brian/crystalScripts/?.lua'
 require("macros")
 require("intro")
 require("littleroot")
 require("route29")
 require("route30")
+require("rival")
+require("firstBattles")
 require("controlFunctions")
 
 tb = console:createBuffer("main")
 
 function main()
 	tb:clear()
-	local msgKey = string.format("macroNumCounter: %s ",macroNumCounter)--activeKey)
+	local msgKey = string.format("Active Key: %s ",activeKey)
 	tb:moveCursor(0,0)
 	tb:print(msgKey)
 	tb:moveCursor(0,1)
@@ -44,7 +46,7 @@ end
 --emu:reset()	
 emu:clearKeys(255)
 
-Inputs = route30
+Inputs = firstBattles--makeInputs()
 
 inNum = 1	  				-- Current input index
 frameDiff = 0 				-- Frames since last input 

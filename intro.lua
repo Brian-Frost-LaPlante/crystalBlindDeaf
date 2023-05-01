@@ -10,8 +10,10 @@ intro = {
 	{"a",60},
 	{"w",60},
 	{"l",12}, -- set text speed to fast
-	{"w",180},
-	{"d",12}, -- go to sound
+	{"w",60},
+	{"d",12},
+	{"w",60},
+	{"l",12}, -- turn off battle scene
 	{"w",60},
 	{"d",12},
 	{"w",60},

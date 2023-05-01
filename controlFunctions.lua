@@ -1,5 +1,22 @@
-package.path = 'home/brian/Documents/silverScripts/?.lua'
+package.path = 'home/brian/Documents/crystalScripts/?.lua'
 require("macros")
+require("intro")
+require("littleroot")
+require("route29")
+require("route30")
+require("rival")
+require("firstBattles")
+
+function makeInputs()
+	Inputs = TableConcat(intro,littleroot)
+	Inputs = TableConcat(Inputs,route29)
+	Inputs = TableConcat(Inputs,route30)
+	Inputs = TableConcat(Inputs,rival)
+	Inputs = TableConcat(Inputs,route29)
+	Inputs = TableConcat(Inputs,firstBattles)
+	FullIntro = Inputs
+	return FullIntro
+end
 
 function pressKey(name)
     if name == "a" or name == "A" then
@@ -85,6 +102,10 @@ function parseMacro(name)
 		return grassRight
 	elseif name == "grassDown" then
 		return grassDown
+	elseif name == "resetMenu" then
+		return resetMenu
+	elseif name == "deleteNumber" then
+		return deleteNumber
 	else
 		return false
 	end

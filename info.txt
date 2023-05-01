@@ -1,10 +1,66 @@
-Pick Totodile because he knows a 100 acc move
+Pick Totodile because he knows a 100 acc move SCRATCH
 Use Crystal because you get free Dratini
+
+start with 135 EXP at LV 5, berry
+start with $3000
+Remove berry on Route 30
 
 Min IV Toto at level 5 has 
 20 HP	11 ATK	11 DEF	9 SPEA	9 SPED	9 SPEED
 Max
 21 HP	13 ATK	12 DEF	10 SPEA	11 SPED	10 SPEED
 
-Route 30: no guaranteed runaway at any time of day, leaving the run only pretty possible
+ROUTE 30 
+_______________________________________________________________________________
+no guaranteed runaway at any time of day, leaving the run only pretty possible
 
+after rival, full HP either 
+1) lose: 135 EXP LV 5, 	$3000
+STAT EXP = 		0 		0 		0 		0 		0	 	0
+2) win:  202 EXP LV 6, 	$3300
+
+Either way need berry for first few battles
+
+YOUNGSTER JOEY:
+RATTATA 4 		16		10		8		7		8		11
+				TAIL WHIP		TACKLE
+48 EXP
+$64
+
+YOUNGSTER MIKEY (MANDATORY):
+PIDGEY 2
+				TACKLE
+22 EXP
+
+RATTATA 4
+				TAIL WHIP		TACKLE
+48 EXP
+
+
+BUG CATCHER DON:
+CATERPIE 3		
+				TACKLE			STRING SHOT
+33 EXP
+
+CATERPIE 3		
+				TACKLE			STRING SHOT
+33 EXP
+
+BUG CATCHER WADE:
+CATERPIE 2
+				TACKLE			STRING SHOT
+22 EXP
+
+CATERPIE 2
+				TACKLE			STRING SHOT
+22 EXP
+
+WEEDLE 3
+				POISON STING	STRING SHOT
+33 EXP
+
+CATERPIE 2
+				TACKLE			STRING SHOT
+22 EXP
+
+_______________________________________________________________________________
