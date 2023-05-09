@@ -1,10 +1,20 @@
 rival = {
 	{"w",60},
 	{"talk",7},
+	{"w",720},-- the rival battle is a very tricky ordeal. need to be very careful
+	{"talk",2}, 
 	{"w",600},
-	{"talk",150}, -- mash A for rival battle
+	{"talk",2}, -- first use scratch
+	{"b",120}, -- mash b in case a critical hit
+	{"w",120},
+	{"b",120}, 
+	{"w",120},
+	{"b",120}, 
+	{"w",120},
+	{"rival1Cycle",16}, -- the cycle is scratch followed by potion
 	{"w",30},
-	{"walkUp",2},
+	{"walkUp",5}, -- walk into the wal to be sure of where you are
+	{"walkDown",2}, -- now, back to littleroot!
 	{"walkRight",15},
 	{"walkDown",5},
 	{"walkRight",7},

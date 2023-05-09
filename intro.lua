@@ -47,11 +47,15 @@ intro = {
 	{"w",120},
 	{"a",12},
 	{"w",120},
+	--{"walkDown",13}, if you want to change the time
+	{"w",30},
 	{"a",12},
 	{"w",120},
 	{"a",12},
 	{"w",120},
-	{"a",12}, -- set time to Day 10 o'clock
+	{"a",12}, -- set time to NITE 9 o'clock
+	{"w",120},
+	{"a",12},
 	{"w",120},
 	{"a",12},
 	{"w",120},

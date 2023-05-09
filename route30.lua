@@ -89,10 +89,34 @@ route30 = {
 	{"walkDown",3},
 	{"walkRight",4},
 	{"walkDown",7},
-	{"w",300},
-	{"walkDown",11},
-	{"walkRight",16},
-	{"walkDown",3},
+	{"w",300}, 
+	{"walkDown",10}, --in cherrygrove
+	{"walkRight",8},
+	{"walkUp",2},
+	{"w",300}, -- in mart
+	{"walkUp",4},
+	{"walkLeft",1},
+	{"a",5},
+	{"w",120},
+	{"a",5},
+	{"w",180}, -- on potion
+	{"a",5},
+	{"w",60},
+	{"walkUp",7}, -- buy 8 potions
+	{"talk",2},
+	{"w",120},
+	{"a",5},
+	{"w",120}, -- potions bought}
+	{"b",5},
+	{"w",120},
+	{"b",5},
+	{"w",60},
+	{"b",5},
+	{"w",60},
+	{"walkDown",6},
+	{"w",300}, -- out of mart
+	{"walkRight",9},
+	{"walkDown",4},
 	{"walkRight",3}, -- rival arrives
 	{"w",600}
 }

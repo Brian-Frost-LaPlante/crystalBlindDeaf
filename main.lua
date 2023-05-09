@@ -3,9 +3,17 @@ require("macros")
 require("intro")
 require("littleroot")
 require("route29")
+require("route29_2")
 require("route30")
 require("rival")
 require("firstBattles")
+require("violet")
+require("wadeCycles")
+require("gym1")
+require("route32")
+require("unioncave")
+require("well")
+require("gym2")
 require("controlFunctions")
 
 tb = console:createBuffer("main")
@@ -46,7 +54,7 @@ end
 --emu:reset()	
 emu:clearKeys(255)
 
-Inputs = firstBattles--makeInputs()
+Inputs = makeInputs() 
 
 inNum = 1	  				-- Current input index
 frameDiff = 0 				-- Frames since last input 

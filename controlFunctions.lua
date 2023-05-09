@@ -1,19 +1,51 @@
-package.path = 'home/brian/Documents/crystalScripts/?.lua'
+package.path = 'home/brian/crystalScripts/?.lua'
 require("macros")
 require("intro")
 require("littleroot")
 require("route29")
+require("route29_2")
 require("route30")
 require("rival")
 require("firstBattles")
+require("violet")
+require("wadeCycles")
+require("gym1")
+require("route32")
+require("unioncave")
+require("well")
+require("gym2")
+
+function TableConcat(t1,t2)
+    for i=1,#t2 do
+        t1[#t1+1] = t2[i]
+    end
+    return t1
+end
+
+wadeCycles = {{"w",1}}
+
+for i = 1,9 do
+    wadeCycles = TableConcat(wadeCycles,protowade)
+end
+for i = 1,68 do
+    wadeCycles = TableConcat(wadeCycles,wade)
+end
+
 
 function makeInputs()
 	Inputs = TableConcat(intro,littleroot)
 	Inputs = TableConcat(Inputs,route29)
 	Inputs = TableConcat(Inputs,route30)
 	Inputs = TableConcat(Inputs,rival)
-	Inputs = TableConcat(Inputs,route29)
+	Inputs = TableConcat(Inputs,route29_2)
 	Inputs = TableConcat(Inputs,firstBattles)
+	Inputs = TableConcat(Inputs,violet)
+	Inputs = TableConcat(Inputs,wadeCycles)
+	Inputs = TableConcat(Inputs,gym1)
+	Inputs = TableConcat(Inputs,route32)
+	Inputs = TableConcat(Inputs,unioncave)
+	Inputs = TableConcat(Inputs,well)
+	Inputs = TableConcat(Inputs,gym2)
 	FullIntro = Inputs
 	return FullIntro
 end
@@ -75,13 +107,6 @@ function handleMacro(macroIn,numMacro)
 	return true
 end
 
-function TableConcat(t1,t2)
-    for i=1,#t2 do
-        t1[#t1+1] = t2[i]
-    end
-    return t1
-end
-
 
 function parseMacro(name)
 	if name == "walkUp" then
@@ -106,6 +131,14 @@ function parseMacro(name)
 		return resetMenu
 	elseif name == "deleteNumber" then
 		return deleteNumber
+	elseif name == "rival1Cycle" then
+		return rival1Cycle
+	elseif name == "pokemonCenter" then
+		return pokemonCenter
+	elseif name == "leerCycle" then
+		return leerCycle
+	elseif name == "mashB" then
+		return mashB
 	else
 		return false
 	end
