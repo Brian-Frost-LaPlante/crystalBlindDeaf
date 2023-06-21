@@ -1,6 +1,30 @@
 Pick Totodile because he knows a 100 acc move SCRATCH
 Use Crystal because you get free Dratini
 
+POKEMON WE CAN GUARANTEE
+	- Toto
+	- Abra (buy, Goldenrod)
+	- Cubone (buy, Goldenrod)
+	- Wobbufett (buy, Goldenrod)
+	- Machop (trade for Abra)
+	- Eevee (gift)
+	- Spearow (gift)
+	- Shuckle (gift)
+	- Dratini (gift)
+	- Togepi (egg)
+	- Tyrogue (gift)
+	- Pikachu (buy, Celadon)
+	- Porygon (buy, Celadon)
+	- Larvitar (buy, Celadon)
+	- Suicune (Master ball)
+	- Magikarp (Master ball)
+	- Ratatta (Master ball)
+	- Slowpoke (Master ball)
+	- Lugia (Master ball)
+	- Snorlax (Master ball)
+	- Lapras (Master ball on friday in union cave)
+
+
 start with 135 EXP at LV 5, berry
 start with $3000
 Remove berry on Route 30
@@ -64,3 +88,63 @@ CATERPIE 2
 22 EXP
 
 _______________________________________________________________________________
+
+
+might want return from goldenrod on sundays 5th floor w high friendship
+lvl35 kadabra can oneshot miltank
+
+level in daycare to 15, evolve by switch training, level to 35 in daycare
+
+at end of part 3: kad is lvl49, statxp = [8639, 10019, 9310, 9275, 9275, 10791].
+
+if i get thunder punch, lvl 52 kad can one-shot exec4 houndoom after an x special
+need to worry about first houndour's roar though, so deposit all pokes first.
+
+clair gets whacked by psychic at lvl 52 kad w/ x special. need prz berry
+
+
+Before E4, there are 7 rare candies, many trainers still around to battle.
+Will 
+	- fire and thunder punch one-shot all 
+	- need to worry about quick attacks (jk they cant touch me, just potion afterwards)
+Koga 
+	- fire punch and psych one-shot all
+	- must account for protect
+Bruno 
+	- psychic one-shots everything
+	- must worry about quick attack, detect and mach punch (jk they cant touch me just heal after)
+Karen 
+	- can one-shot vileplume and gengar w psychic
+	- can one-shot murkrow w thunder punch or ice punch
+	- umbreon and houndoom are huge issues... have to think harder.
+		- a machoke at level 56 with max proteins could 1-shot both w vital throw
+		- LVL 42 mac and 62 Kad could tag team umbreon (mac would need bitter berry)
+		- LVL 68 Kad with burner Poke could also handle umbreon just fine
+		- a machoke at level 67 with max proteins could 1-shot umbreon. 1 carbos to outspeed
+		- LVL 40 Sui with 25600 spec and HP could two-shot houndoom, or tag team with kad. Have to find a silly way to account for roar here
+	Probable best strat: catch suicune, ensure LVL 68 Kadabra
+Lance 
+	- ice punch at lvl 54 one-shots all three dragonites.
+	- thunder punch will one-shot gyarados
+	- at 62, thunder punch one-shots charizard, aerodactyl. 
+
+
+
+RED
+	- LVL 76 Kad with 25600 SPEC Statxp can one-shot Venusaur with psychic (and outspeeds)
+	- LVL 76 Kad with 25600 SPEC Statxp can two-shot Blastoise with tpunch
+	- Even LVL 100 Kad would not one-shot Blastoise! 
+		- could do ice berry so I can rely on two-shotting (He outspeeds)
+		- With X SPEC LVL 86 Kad could one-shot with tpunch. 
+			- To set up on Pika requires par berry, could just barely survive one thunderso no way it could dal with thunder -> quick attack	
+		- Without X Spec, LVL 80 Jolteon could one-shot with tbolt
+		
+	- even at lvl 55, Tyranitar could 1-shot Pikachu (does not outspeed)
+	- at lvl 85 could one-shot espeon (does not outspeed)
+	- at lvl 60 with 25600 SPEC statxp, could two-shot espeon. (does not outspeed)
+	- at 65, could two-shot charizard with tbolt (does not outspeed)
+
+	- Snorlax is really hard...
+
+	Probable best strat: Level 76 Kad, Level 65 (or higher) Tyranitar, several burner pokemon for reflect/possible status conditions
+	Another strat: crazy Kadabra setup against Espeon. involves stalling out espeon's moves with useless items

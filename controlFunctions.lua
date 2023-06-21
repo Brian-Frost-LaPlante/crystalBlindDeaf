@@ -1,19 +1,4 @@
-package.path = 'home/brian/crystalScripts/?.lua'
-require("macros")
-require("intro")
-require("littleroot")
-require("route29")
-require("route29_2")
-require("route30")
-require("rival")
-require("firstBattles")
-require("violet")
-require("wadeCycles")
-require("gym1")
-require("route32")
-require("unioncave")
-require("well")
-require("gym2")
+require("init")
 
 function TableConcat(t1,t2)
     for i=1,#t2 do
@@ -32,7 +17,7 @@ for i = 1,68 do
 end
 
 
-function makeInputs()
+function makePart1()
 	Inputs = TableConcat(intro,littleroot)
 	Inputs = TableConcat(Inputs,route29)
 	Inputs = TableConcat(Inputs,route30)
@@ -46,8 +31,55 @@ function makeInputs()
 	Inputs = TableConcat(Inputs,unioncave)
 	Inputs = TableConcat(Inputs,well)
 	Inputs = TableConcat(Inputs,gym2)
-	FullIntro = Inputs
-	return FullIntro
+	Inputs = TableConcat(Inputs,backtrack1)
+	Inputs = TableConcat(Inputs,hatch)
+	Inputs = TableConcat(Inputs,rival2)
+	return Inputs
+end
+
+function makePart2()
+	Inputs = ilex
+	Inputs = TableConcat(Inputs,route34)
+	Inputs = TableConcat(Inputs,goldenrod1)
+	Inputs = TableConcat(Inputs,abra)
+	Inputs = TableConcat(Inputs,daycare1)
+	Inputs = TableConcat(Inputs,evolveAbra)
+	Inputs = TableConcat(Inputs,daycare2)
+	Inputs = TableConcat(Inputs,gym3)
+	Inputs = TableConcat(Inputs,route35)
+	Inputs = TableConcat(Inputs,route37)
+	Inputs = TableConcat(Inputs,burning)
+	Inputs = TableConcat(Inputs,gym4)
+	return Inputs
+end
+
+function makePart3()
+	Inputs = kimono
+	Inputs = TableConcat(Inputs,route38)
+	Inputs = TableConcat(Inputs,lighthouse)
+	Inputs = TableConcat(Inputs,route40)
+	Inputs = TableConcat(Inputs,gym56)
+	Inputs = TableConcat(Inputs,route42)
+	Inputs = TableConcat(Inputs,lakeofrage)
+	Inputs = TableConcat(Inputs,hideout)
+	Inputs = TableConcat(Inputs,gym7)
+	return Inputs
+end
+
+function makePart4()
+	Inputs = radiotower1
+	Inputs = TableConcat(Inputs,underground)
+	Inputs = TableConcat(Inputs,radiotower2)
+	Inputs = TableConcat(Inputs,route44)
+	Inputs = TableConcat(Inputs,gym8)
+	Inputs = TableConcat(Inputs,den)
+	Inputs = TableConcat(Inputs,suicune)
+	Inputs = TableConcat(Inputs,candy)
+	Inputs = TableConcat(Inputs,route45)
+	Inputs = TableConcat(Inputs,route27)
+	Inputs = TableConcat(Inputs,victoryroad)
+	Inputs = TableConcat(Inputs,league)
+	return Inputs
 end
 
 function pressKey(name)
@@ -139,6 +171,12 @@ function parseMacro(name)
 		return leerCycle
 	elseif name == "mashB" then
 		return mashB
+	elseif name == "mashA" then
+		return mashA
+	elseif name == "rl" then
+		return rl
+	elseif name == "rlDaycare" then
+		return rlDaycare
 	else
 		return false
 	end
