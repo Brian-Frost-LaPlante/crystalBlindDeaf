@@ -42,7 +42,7 @@ Inputs = TableConcat(makePart1(),makePart2())
 Inputs = TableConcat(Inputs,makePart3())
 Inputs = TableConcat(Inputs,makePart4())
 --Inputs = makePart3()
-Inputs = karen
+Inputs = league
 
 inNum = 1	  				-- Current input index
 frameDiff = 0 				-- Frames since last input 

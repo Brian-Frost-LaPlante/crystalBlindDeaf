@@ -57,8 +57,3 @@ require("part4.route45")
 require("part4.route27")
 require("part4.victoryroad")
 require("part4.league")
-
-
-
-
-require("part4.karen")

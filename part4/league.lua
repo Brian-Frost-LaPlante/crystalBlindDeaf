@@ -133,7 +133,7 @@ league = {
 	{'w',30},
 	{'a',5},
 	{'w',30},
-	{'mashB',30}, -- first fire punch umbreon. might leave burnt, but can't kill. 
+	{'mashB',40}, -- first fire punch umbreon. might leave burnt, but can't kill. 
 	{'walkRight',1},-- then, switch to spearow. he either confuse rayed or sand attacked (i've never seen him faint attack or mean look...)
 	{'a',5},
 	{'w',120},
@@ -149,12 +149,15 @@ league = {
 	{'a',5},
 	{'w',30},
 	{'a',5},
-	{'w',200}, -- second fire punch. might have killed, might have not
-	{'b',5}, -- maybe a crit?
-	{'w',400}, -- if confused or sand attack, a long wait, then one a press
-	-- if killed, I want to do nothing. if not killed. i want to switch to dratini
-	{'a',5},
-	{'w',60},
+	{'w',600}, -- second fire punch. might have killed, might have not
+	{'b',5}, -- maybe a crit or a burn?
+	{'w',600}, 
+	-- if killed, I want to do nothing. if not killed. i want to switch to dratini.
+	-- another issue is a BURN might have happened
+	{'b',5},
+	{'w',600},
+	{'b',5},
+	{'w',600},
 	{'walkRight',1},
 	{'a',5},
 	{'w',60},
@@ -369,7 +372,7 @@ karen = {
 	{'w',30},
 	{'a',5},
 	{'w',30},
-	{'mashB',30}, -- first fire punch umbreon. might leave burnt, but can't kill. 
+	{'mashB',40}, -- first fire punch umbreon. might leave burnt, but can't kill. 
 	{'walkRight',1},-- then, switch to spearow. he either confuse rayed or sand attacked (i've never seen him faint attack or mean look...)
 	{'a',5},
 	{'w',120},
@@ -385,12 +388,15 @@ karen = {
 	{'a',5},
 	{'w',30},
 	{'a',5},
-	{'w',200}, -- second fire punch. might have killed, might have not
-	{'b',5}, -- maybe a crit?
-	{'w',400}, -- if confused or sand attack, a long wait, then one a press
-	-- if killed, I want to do nothing. if not killed. i want to switch to dratini
-	{'a',5},
-	{'w',60},
+	{'w',600}, -- second fire punch. might have killed, might have not
+	{'b',5}, -- maybe a crit or a burn?
+	{'w',600}, 
+	-- if killed, I want to do nothing. if not killed. i want to switch to dratini.
+	-- another issue is a BURN might have happened
+	{'b',5},
+	{'w',600},
+	{'b',5},
+	{'w',600},
 	{'walkRight',1},
 	{'a',5},
 	{'w',60},
