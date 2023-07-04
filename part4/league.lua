@@ -1,5 +1,9 @@
 league = {
-	{'w',30}, -- finally, the pokemon league! in Will's room. Nothing to worry about here.
+	{'w',30},
+	{'walkRight',100},--wanderer....
+	{'walkUp',7},
+	{'walkLeft',4},
+	{'w',300}, -- finally, the pokemon league! in Will's room. Nothing to worry about here.
 	{'walkUp',5},
 	{'talk',10},
 	{'w',240},
@@ -115,6 +119,10 @@ league = {
 	-- I can, at worst, three-shot the Umbreon. As such, need two burner pokes. issue is, i COULD 2-shot the umbreon!
 	-- moreover, Houndoom can be a problem depending on if he uses roar.
 	-- teach suicune Surf
+	{'w',300}, -- finally, a real challenge: KAREN. This battle can go a few ways.
+	-- I can, at worst, three-shot the Umbreon. As such, need two burner pokes. issue is, i COULD 2-shot the umbreon!
+	-- moreover, Houndoom can be a problem 
+	-- teach suicune Surf
 	{'s',5},
 	{'w',60},
 	{'a',5},
@@ -124,16 +132,35 @@ league = {
 	{'talk',5},
 	{'walkUp',2},
 	{'talk',8},
+	{'mashB',15}, -- now give an elixer to kadabra
+	{'s',5},
+	{'w',120},
+	{'a',5},
+	{'w',120},
+	{'walkRight',1},
+	{'walkDown',2},
+	{'a',5},
+	{'w',30},
+	{'a',5},
+	{'w',120},
+	{'walkDown',2},
+	{'a',5},
+	{'w',60},
+	{'walkUp',1},
+	{'a',5},
+	{'w',30},
 	{'mashB',15}, -- now walk to karen
+
 	{'walkUp',6},
 	{'walkRight',1},
 	{'talk',9},
 	{'mashB',30},
+
 	{'a',5},
 	{'w',30},
 	{'a',5},
 	{'w',30},
-	{'mashB',40}, -- first fire punch umbreon. might leave burnt, but can't kill. 
+	{'mashB',50}, -- first fire punch umbreon. might leave burnt, but can't kill. 
 	{'walkRight',1},-- then, switch to spearow. he either confuse rayed or sand attacked (i've never seen him faint attack or mean look...)
 	{'a',5},
 	{'w',120},
@@ -150,69 +177,79 @@ league = {
 	{'w',30},
 	{'a',5},
 	{'w',600}, -- second fire punch. might have killed, might have not
-	{'b',5}, -- maybe a crit or a burn?
-	{'w',600}, 
 	-- if killed, I want to do nothing. if not killed. i want to switch to dratini.
 	-- another issue is a BURN might have happened
 	{'b',5},
 	{'w',600},
 	{'b',5},
 	{'w',600},
+	{'b',5},
+	{'w',600},
 	{'walkRight',1},
 	{'a',5},
 	{'w',60},
-	{'walkDown',3}, -- if umbreon dead get stuck on teaching surf
+	{'walkDown',3}, 
 	{'talk',2}, -- switched to dratini
 	{'w',720}, -- long wait, then one text box. dratini is either alive or dead
+	-- another possibility is UMBREON died of burn which is the worst thing ever ugh it makes me MAD!
 	{'a',5},
 	{'w',120}, -- if im dratini, im on the battle menu on FIGHT. if i killed umbreon, im in text boxes
-	{'walkRight',1},
-	{'mashB',55}, -- if im on dratini, just fooling around mashing B over the pokemon menu. else Im skipping through text boxes
-	{'w',120},
-	{'walkDown',3}, -- if im on dratini, im hovering over RUN. if im on Kad, hovering over PACK. if dratini dead im on kad in menu
-	{'a',5},
-	{'w',240}, -- run textbox 1//TMs//kadabra out
-	{'walkRight',1}, -- run textbox 1//Items//kadabra out, cursor on PKMN
-	{'a',5},
-	{'w',120}, -- run textbox 2//ice berry use?//PKMN menu on kadabra
-	{'a',5},
-	{'w',120}, -- out of run text//pokemon menu to use ice berry
-	{'walkUp',1},
-	{'walkLeft',1}, -- FIGHT//Cancel berry//pokemon menu
-	{'a',5},
-	{'w',30},
-	{'a',5},
-	{'w',30}, -- use waterfall, die//back on berry use screen//pokemon menu
-	{'mashB',35}, -- pick pokemon//PACK//PKMN
-	{'w',120},
-	{'walkLeft',1},
-	{'a',5},
-	{'w',120},
-	{'a',5},
-	{'w',120},
+	-- or if UMBREON is dying of burn, im on "Enemy UMBREON IS HURT"
+	{'talk',3},
+	{'b',5},
+	{'w',300},
+	{'b',5},
+	{'w',300},
+	{'b',5},
+	{'w',300},
 	{'walkDown',3},
 	{'a',5},
-	{'w',480}, -- Kadabra out on FIGHT//in bag on ICE BERRY//Kadabra out on PACK
+	{'w',30},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'walkDown',3},
+	{'a',5},
+	{'w',180},
+	{'walkDown',3},
+	{'a',5},
+	{'w',180},
+	{'b',5},
+	{'w',600},
+	{'a',5},
+	{'w',30},
 	{'walkUp',1},
 	{'a',5},
 	{'w',30},
-	{'a',5},
-	{'w',30}, -- Fire punch kills umbreon//using ICE BERRY
-	{'mashB',35}, -- Murkrow out
-	{'walkUp',1}, -- on FIGHT as Kadabra
+	{'mashB',50},
+	{'walkUp',1},
 	{'a',5},
 	{'w',30},
 	{'walkDown',1},
 	{'a',5},
-	{'w',480}, -- thunderpunch eliminates this crow. next is the horrible houndoom
-	-- houndoom can one-shot kadabra with crunch, but cant one-shot suicune. switch
+	{'w',480}, -- crow down
 	{'talk',4}, -- accounts for crit
 	{'w',300},
 	{'talk',3},
 	{'w',60},
 	{'walkUp',2},
-	{'talk',2},
+	{'a',5},
+	{'w',120},
+	{'walkUp',2},
+	{'talk',1},
 	{'mashB',25},
+
 	{'a',5},
 	{'w',30},
 	{'a',5},
@@ -274,6 +311,7 @@ league = {
 	{'a',5},
 	{'w',30},
 	{'mashB',50},
+
 	{'walkUp',6},
 	{'w',300}, -- up to lance! teach ice punch first
 	{'s',5},
@@ -347,12 +385,10 @@ league = {
 	{'w',120},
 }
 
-
-
 karen = {
 	{'w',300}, -- finally, a real challenge: KAREN. This battle can go a few ways.
 	-- I can, at worst, three-shot the Umbreon. As such, need two burner pokes. issue is, i COULD 2-shot the umbreon!
-	-- moreover, Houndoom can be a problem depending on if he uses roar.
+	-- moreover, Houndoom can be a problem 
 	-- teach suicune Surf
 	{'s',5},
 	{'w',60},
@@ -363,6 +399,23 @@ karen = {
 	{'talk',5},
 	{'walkUp',2},
 	{'talk',8},
+	{'mashB',15}, -- now give an elixer to kadabra
+	{'s',5},
+	{'w',120},
+	{'a',5},
+	{'w',120},
+	{'walkRight',1},
+	{'walkDown',2},
+	{'a',5},
+	{'w',30},
+	{'a',5},
+	{'w',120},
+	{'walkDown',2},
+	{'a',5},
+	{'w',60},
+	{'walkUp',1},
+	{'a',5},
+	{'w',30},
 	{'mashB',15}, -- now walk to karen
 	{'walkUp',6},
 	{'walkRight',1},
@@ -372,7 +425,7 @@ karen = {
 	{'w',30},
 	{'a',5},
 	{'w',30},
-	{'mashB',40}, -- first fire punch umbreon. might leave burnt, but can't kill. 
+	{'mashB',50}, -- first fire punch umbreon. might leave burnt, but can't kill. 
 	{'walkRight',1},-- then, switch to spearow. he either confuse rayed or sand attacked (i've never seen him faint attack or mean look...)
 	{'a',5},
 	{'w',120},
@@ -389,68 +442,75 @@ karen = {
 	{'w',30},
 	{'a',5},
 	{'w',600}, -- second fire punch. might have killed, might have not
-	{'b',5}, -- maybe a crit or a burn?
-	{'w',600}, 
 	-- if killed, I want to do nothing. if not killed. i want to switch to dratini.
 	-- another issue is a BURN might have happened
 	{'b',5},
 	{'w',600},
 	{'b',5},
 	{'w',600},
+	{'b',5},
+	{'w',600},
 	{'walkRight',1},
 	{'a',5},
 	{'w',60},
-	{'walkDown',3}, -- if umbreon dead get stuck on teaching surf
+	{'walkDown',3}, 
 	{'talk',2}, -- switched to dratini
 	{'w',720}, -- long wait, then one text box. dratini is either alive or dead
+	-- another possibility is UMBREON died of burn which is the worst thing ever ugh it makes me MAD!
 	{'a',5},
 	{'w',120}, -- if im dratini, im on the battle menu on FIGHT. if i killed umbreon, im in text boxes
-	{'walkRight',1},
-	{'mashB',55}, -- if im on dratini, just fooling around mashing B over the pokemon menu. else Im skipping through text boxes
-	{'w',120},
-	{'walkDown',3}, -- if im on dratini, im hovering over RUN. if im on Kad, hovering over PACK. if dratini dead im on kad in menu
-	{'a',5},
-	{'w',240}, -- run textbox 1//TMs//kadabra out
-	{'walkRight',1}, -- run textbox 1//Items//kadabra out, cursor on PKMN
-	{'a',5},
-	{'w',120}, -- run textbox 2//ice berry use?//PKMN menu on kadabra
-	{'a',5},
-	{'w',120}, -- out of run text//pokemon menu to use ice berry
-	{'walkUp',1},
-	{'walkLeft',1}, -- FIGHT//Cancel berry//pokemon menu
-	{'a',5},
-	{'w',30},
-	{'a',5},
-	{'w',30}, -- use waterfall, die//back on berry use screen//pokemon menu
-	{'mashB',35}, -- pick pokemon//PACK//PKMN
-	{'w',120},
-	{'walkLeft',1},
-	{'a',5},
-	{'w',120},
-	{'a',5},
-	{'w',120},
+	-- or if UMBREON is dying of burn, im on "Enemy UMBREON IS HURT"
+	{'talk',3},
+	{'b',5},
+	{'w',600},
+	{'b',5},
+	{'w',300},
 	{'walkDown',3},
 	{'a',5},
-	{'w',480}, -- Kadabra out on FIGHT//in bag on ICE BERRY//Kadabra out on PACK
+	{'w',30},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'a',5},
+	{'w',300},
+	{'walkDown',3},
+	{'a',5},
+	{'w',180},
+	{'walkDown',3},
+	{'a',5},
+	{'w',180},
+	{'b',5},
+	{'w',600},
+	{'a',5},
+	{'w',30},
 	{'walkUp',1},
 	{'a',5},
 	{'w',30},
-	{'a',5},
-	{'w',30}, -- Fire punch kills umbreon//using ICE BERRY
-	{'mashB',35}, -- Murkrow out
-	{'walkUp',1}, -- on FIGHT as Kadabra
+	{'mashB',50},
+	{'walkUp',1},
 	{'a',5},
 	{'w',30},
 	{'walkDown',1},
 	{'a',5},
-	{'w',480}, -- thunderpunch eliminates this crow. next is the horrible houndoom
-	-- houndoom can one-shot kadabra with crunch, but cant one-shot suicune. switch
+	{'w',480}, -- crow down
 	{'talk',4}, -- accounts for crit
 	{'w',300},
 	{'talk',3},
 	{'w',60},
 	{'walkUp',2},
-	{'talk',2},
+	{'a',5},
+	{'w',120},
+	{'walkUp',2},
+	{'talk',1},
 	{'mashB',25},
 	{'a',5},
 	{'w',30},

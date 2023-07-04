@@ -91,8 +91,5 @@ victoryroad = {
 	{'talk',7},
 	{'w',300},
 	{'mashB',12},
-	{'walkRight',80}, -- wanderer... in here????
-	{'walkUp',7},
-	{'walkLeft',4},
-	{'w',300}, -- here we are!
+	{'w',30},
 }
