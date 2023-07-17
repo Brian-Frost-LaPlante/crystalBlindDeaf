@@ -421,6 +421,9 @@ karen = {
 	{'walkRight',1},
 	{'talk',9},
 	{'mashB',30},
+}
+karen1 = {
+	{'w',1},
 	{'a',5},
 	{'w',30},
 	{'a',5},
@@ -465,6 +468,8 @@ karen = {
 	{'w',600},
 	{'b',5},
 	{'w',300},
+	{'b',5},
+	{'w',300},
 	{'walkDown',3},
 	{'a',5},
 	{'w',30},
@@ -502,6 +507,8 @@ karen = {
 	{'walkDown',1},
 	{'a',5},
 	{'w',480}, -- crow down
+}
+karen4 = { {'w',1},
 	{'talk',4}, -- accounts for crit
 	{'w',300},
 	{'talk',3},

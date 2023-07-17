@@ -38,11 +38,11 @@ end
 --emu:reset()	
 emu:clearKeys(255)
 
-Inputs = TableConcat(makePart1(),makePart2())
-Inputs = TableConcat(Inputs,makePart3())
-Inputs = TableConcat(Inputs,makePart4())
+--Inputs = TableConcat(makePart1(),makePart2())
+--Inputs = TableConcat(Inputs,makePart3())
+--Inputs = TableConcat(Inputs,makePart4())
 --Inputs = makePart3()
---Inputs = karen--makePart4()--makePart1() -- league
+Inputs = makePart1()--makePart4()--makePart1() -- league
 
 inNum = 1	  				-- Current input index
 frameDiff = 0 				-- Frames since last input 
