@@ -128,23 +128,43 @@ Lance
 	- thunder punch will one-shot gyarados
 	- at 62, thunder punch one-shots charizard, aerodactyl. 
 
+----------------------------------------------------------------
+Surge   -- Everything dies to Fire Punch or Psychic
+Erika   -- Everything dies to Fire Punch
+Sabrina -- Guard Spec + 1 X Spec + Hyper Pot  on Espeon guarantees one-shot on all with thunder punch
+	- need LVL 72 for the first trainer's Hypno! eek! good thing i can do things in any order i want in this part.
+Misty   -- Everything dies to Thunder Punch
+Janine  -- Psychic or Fire Punch one-shots everyone
+Brock   -- Psychic one-shots everything, even at level 65.
+Blaine  -- Psychic one-shots everything, even at Level 65.
+Blue    -- will require thought. can't set up on pidgeot because pidgeot has quick attack and does a ton of damage. Alakazam has Disable.
+	- can one-shot Pidgeot with thunder punch or ice punch at level 67
+	- can one-shot Rhydon with Psychic at level 67
+	- can one-shot Gyarados with thunder punch at level 67
+	- can one-shot Exeggutor with fire punch at level 68
+	- can one-shot Arcanine with psychic at 77. need 4854 EXP after sabrina's gym before fighting blue	
+	- Alakazam? At LVL 76 with an X Spec can one-shot. Can 2-shot at pretty much any level but need to deal with disable and recover.
+	Need a burner Pokemon to heal kadabra in case pidgeot uses quick attack + Arcanine uses extremespeed
 
 
+_______________________________________________________________
 RED
-	- LVL 76 Kad with 25600 SPEC Statxp can one-shot Venusaur with psychic (and outspeeds)
-	- LVL 76 Kad with 25600 SPEC Statxp can two-shot Blastoise with tpunch
-	- Even LVL 100 Kad would not one-shot Blastoise! 
-		- could do ice berry so I can rely on two-shotting (He outspeeds)
-		- With X SPEC LVL 86 Kad could one-shot with tpunch. 
-			- To set up on Pika requires par berry, could just barely survive one thunderso no way it could dal with thunder -> quick attack	
-		- Without X Spec, LVL 80 Jolteon could one-shot with tbolt
-		
-	- even at lvl 55, Tyranitar could 1-shot Pikachu (does not outspeed)
-	- at lvl 85 could one-shot espeon (does not outspeed)
-	- at lvl 60 with 25600 SPEC statxp, could two-shot espeon. (does not outspeed)
-	- at 65, could two-shot charizard with tbolt (does not outspeed)
 
-	- Snorlax is really hard...
+I will be LVL 77 min here. Can use 10 rare candies to hit min 87
 
-	Probable best strat: Level 76 Kad, Level 65 (or higher) Tyranitar, several burner pokemon for reflect/possible status conditions
-	Another strat: crazy Kadabra setup against Espeon. involves stalling out espeon's moves with useless items
+PIKA
+-- can one-shot with psychic
+-- he can QA, which does max 60 at LVL 87
+
+ESPEON, want to set up here
+-- REFLECT, I don't care about this at all
+-- MUD SLAP, can lower Acc
+-- PSYCHIC,  
+-- SWIFT,    
+At LVL 87, none of these moves can two-shot me. 
+Moreover, none of these moves kills on top of the 60 damage from QA
+
+If I GUARD SPEC turn 1, Mud slap doesnt lower acc anymore
+GUARD SPEC + Heal + XSPEC + HEAL + XSPEC + XSPEC + HEAL kills, leaves me with x2.5 SPEC
+
+I outspeed every other pokemon. It's a snoozefest easy win with 3 XSpec

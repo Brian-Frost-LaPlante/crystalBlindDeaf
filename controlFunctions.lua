@@ -82,6 +82,19 @@ function makePart4()
 	return Inputs
 end
 
+function makePart5()
+	Inputs = toKanto
+	Inputs = TableConcat(Inputs,vermillion)
+	Inputs = TableConcat(Inputs,celadon)
+	Inputs = TableConcat(Inputs,powerplant)
+	Inputs = TableConcat(Inputs,lavender_pewter)
+	Inputs = TableConcat(Inputs,cinnabar)
+	Inputs = TableConcat(Inputs,fuschia_saffron)
+	Inputs = TableConcat(Inputs,viridian)
+	Inputs = TableConcat(Inputs,finale)
+	return Inputs
+end
+
 function pressKey(name)
     if name == "a" or name == "A" then
         emu:addKey(0)
