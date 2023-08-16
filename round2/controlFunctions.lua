@@ -16,104 +16,37 @@ function addWaits(Inputs)
 	return out
 end
 
--- Doug cycles
-doug = {{'w',1}}
-for i =1,49 do
-	doug = TableConcat(doug,doug_cycle_1)
-end
-for i =1,2 do
-	doug = TableConcat(doug,doug_cycle_2)
-end
-for i =1,90 do
-	doug = TableConcat(doug,doug_cycle_3)
-end
-for i =1,2 do
-	doug = TableConcat(doug,doug_cycle_2)
-end
-for i =1,159 do
-	doug = TableConcat(doug,doug_cycle_4)
-end
-doug = TableConcat(doug,doug_cycle_5)
 
-gym3 = {{'w',1}}
-for i =1,20 do -- 80 do
-	gym3 = TableConcat(gym3,gymCycle)
-end
-
-
-function makePart1()
-	Inputs = intro
-	Inputs = TableConcat(Inputs,forest1)
-	Inputs = TableConcat(Inputs,doug)
-	Inputs = TableConcat(Inputs,pewter)
-	Inputs = TableConcat(Inputs,route3)
+function makePart1() -- free pokemon and items
+	Inputs = freeIntro
+	Inputs = TableConcat(Inputs,fossil)
+	Inputs = TableConcat(Inputs,gameCorner)
+	Inputs = TableConcat(Inputs,dojo)
+	Inputs = TableConcat(Inputs,items)
 	return Inputs
 end
 
-function makePart2()
-	Inputs = nuggetBridge
-	Inputs = TableConcat(Inputs,bill)
-	Inputs = TableConcat(Inputs,getBike)
-	Inputs = TableConcat(Inputs,daycare1)
-	Inputs = TableConcat(Inputs,misty)
+function makePart2() -- all pokes that use toxic strats
+	Inputs = paras
+	Inputs = TableConcat(Inputs,pidgey)
+	Inputs = TableConcat(Inputs,spearow)
+	Inputs = TableConcat(Inputs,zubat)
+	Inputs = TableConcat(Inputs,raticate)
 	return Inputs
 end
 
-function makePart3()
-	Inputs = boat
-	Inputs = TableConcat(Inputs,gym3)
-	Inputs = TableConcat(Inputs,surge)
+function makePart3() -- pokemon that require super fang
+	Inputs = machop
+	Inputs = TableConcat(Inputs,sevii)
+	Inputs = TableConcat(Inputs,tentacool)
+	Inputs = TableConcat(Inputs,kakuna)
+	Inputs = TableConcat(Inputs,oddish)
 	return Inputs
 end
 
-function makePart4()
-	Inputs = cave
-	Inputs = TableConcat(Inputs,lavenderCeladon)
-	return Inputs
+function makePart4() -- evolve tons of pokemon. tons of them. just TONS of them.
+	return 0
 end
-
-function makePart5()
-	Inputs = preHideout
-	Inputs = TableConcat(Inputs,hideout)
-	Inputs = TableConcat(Inputs,casino)
-	Inputs = TableConcat(Inputs,eeveeCare)
-	Inputs = TableConcat(Inputs,tower)
-	Inputs = TableConcat(Inputs,rocket)
-	Inputs = TableConcat(Inputs,sabrina)
-	return Inputs
-end
-
-function makePart6()
-	Inputs = offScript
-	Inputs = TableConcat(Inputs,bikePath)
-	Inputs = TableConcat(Inputs,koga)
-	Inputs = TableConcat(Inputs,safari)
-	return Inputs
-end
-
-function makePart7()
-	Inputs = seafoam
-	Inputs = TableConcat(Inputs,mansion)
-	Inputs = TableConcat(Inputs,blaine)
-	return Inputs
-end
-
-function makePart8()
-	Inputs = backtrack
-	Inputs = TableConcat(Inputs,beefArticuno)
-	Inputs = TableConcat(Inputs,finalPrep)
-	Inputs = TableConcat(Inputs,gym8)
-	return Inputs
-end
-
-function makePart9()
-	Inputs = preLeague
-	Inputs = TableConcat(Inputs,league)
-	return Inputs
-end
-
-
-
 
 
 function pressKey(name)
@@ -257,6 +190,18 @@ function parseMacro(name)
 		return kickU
 	elseif name == "kickD" then
 		return kickD
+	elseif name == "flyRight" then
+		return flyRight
+	elseif name == "flyLeft" then
+		return flyLeft
+	elseif name == "flyUp" then
+		return flyUp
+	elseif name == "flyDown" then
+		return flyDown
+	elseif name == "buy500" then
+		return buy500
+	elseif name == "flounder" then
+		return flounder
 	else
 		return false
 	end
